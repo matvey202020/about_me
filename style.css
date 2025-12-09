@@ -22,6 +22,8 @@ header {
     background-size: cover;
 }
 
+
+
 .header_main {
     display: flex;
     height: 100vh;
@@ -98,6 +100,10 @@ section h1 {
 .section_item {
     height: 10vw;
     margin: 0 4em 4em 4em;
+}
+
+.section_item:hover{
+    transform: scale(1.1);
 }
 
 .section_item img {
